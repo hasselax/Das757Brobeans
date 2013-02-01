@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<title>Mileage Converter</title>
+<body>
+
+<h1>Mileage Converter</h1>
+<p> Please follow the directions in the windows that pop up!</p>
+
+
+
+<!----  I STARTED TO MAKE A DROP DOWN MENU AND A INPUT WINDOW WITH A BUTTON THAT SAYS CONVERT BUT I COULDN'T FIGURE OUT WHERE TO GO FROM THERE
+SO I COMMENTED IT OUT. 
+
+<p>Please select "MPG to KPL" or "KPL to MPG."</p>
+
+<select>
+ 	<option value="0.425144">MPG to KPL</option>
+	<option value="2.35215">KPL to MPG</option>
+</select>
+</p>
+
+<input type="text" size="25" value="Enter Your Milage Here!">
+<br><input type="submit" value="Convert!"> <input type="reset" value="Reset!"><br>
+
+---->
+
+<script>
+	var units = prompt("Enter 1 to start with MPG. Enter 2 to start with KPL)")
+
+		if (units < 2)
+		{
+			var mpgmilage = prompt("Enter your MPG")
+			alert(mpgmilage * 0.425144) 
+		}
+		else 
+		{
+			var kplmilage = prompt("Enter your KPL")
+			alert(kplmilage * 2.35215)
+		}
+
+
+</script>
+
+</body>
+</html>
